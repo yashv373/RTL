@@ -3,10 +3,7 @@ Build a circuit with no inputs and one output. That output should always drive 1
 
 ### Verilog:
 module top_module( output one );
-
-// Insert your code here
-    assign one = [fixme];
-
+assign one = 1;
 endmodule
 
 
