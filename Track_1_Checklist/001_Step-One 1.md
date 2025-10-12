@@ -1,0 +1,18 @@
+### Question:
+Build a circuit with no inputs and one output. That output should always drive 1 (or logic high).
+
+### Verilog:
+```
+module top_module( output one );
+assign one = 1;
+endmodule
+
+```
+
+### System-Verilog:
+```
+module top_module( output logic one );
+assign one = 1;
+endmodule
+```
+
