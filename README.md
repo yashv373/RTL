@@ -9,7 +9,7 @@ This repository serves as my personal practice log and reference library as I wo
 - Track 2: **Digital circuits library** (from textbooks & online resources)
 - Track 3: EWSkills
 - Track 4: ChipDev.io
-- Track 5: Q
+- Track 5: QuickSilicon
 ---
 ## Goals
 - Strengthen RTL design skills through structured practice  
