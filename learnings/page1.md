@@ -1,1 +1,1 @@
-- in testbenches we always call a dut from the original design file, if you try to drive
+- in testbenches we always call a dut from the original design file, if you try to drive or provide a input to any of the signals that are bein
