@@ -23,7 +23,8 @@ input logic a,b,c,d
 output logic out, out_n
 );
 always_comb begin
-out=~(a^b);
+out=(a&b)|(c&d);
+out_n=~(out);
 end
 endmodule
 ```
