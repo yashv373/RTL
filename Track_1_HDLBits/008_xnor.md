@@ -6,8 +6,8 @@ mapped as follows:
 ### Verilog:
  ```
  module top_module(
- input a,b,
- output reg out
+ input a,b,c,d
+ output reg out, out_
  ); 
  always@(*) begin
 out=~(a^b);
