@@ -30,5 +30,6 @@ output logic out
 ### Suggested Testbench:
 ```
 module testbench;
+initial begin(
 top_module dut()
 ```
