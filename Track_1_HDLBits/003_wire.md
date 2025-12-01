@@ -32,7 +32,7 @@ module testbench;
 logic input, output;
 initial begin( // clocking block
 int x;
-#5 x=~x;
+#5 clk x=~x;
 end
 top_module dut(.input(in), .output(out)); // instantiate the dut
 always@(posedge_clk) begin
