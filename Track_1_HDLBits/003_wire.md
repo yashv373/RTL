@@ -35,6 +35,7 @@ initial begin( // clocking block
 int x;
 #5 x=~x;
 end
-top_module dut(.input(in), .output(out));
+top_module dut(.input(in), .output(out)); // instantiate the dut
+always
 
 ```
