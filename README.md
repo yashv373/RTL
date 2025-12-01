@@ -1,4 +1,4 @@
-# RTL
+# RTL Leetcode
 
 A growing collection of **RTL designs and testbenches** written in **Verilog** and **SystemVerilog**.  
 This repository serves as my personal practice log and reference library as I work through digital design problems and subsystem implementations.
