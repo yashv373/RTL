@@ -1,3 +1,3 @@
 - in testbenches we always call a dut from the original design file, if you try to drive or provide a input to any of the signals that are being driven by the dut already, that is illegal.
   example :
-DUT --
+DUT --> out=in;  ///// in TB --> we dot 
