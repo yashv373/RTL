@@ -31,6 +31,6 @@ output logic out
 ```
 module testbench;
 initial begin(
-
+int x=
 top_module dut()
 ```
