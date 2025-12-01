@@ -35,5 +35,5 @@ initial begin(
 int x;
 #5 x=~x;
 top_module dut(.input(in), .output(out));
-assign 
+assign wire=5
 ```
