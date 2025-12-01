@@ -7,7 +7,7 @@ mapped as follows:
  ```
  module top_module(
  input a,b,c,d
- output reg out, out_
+ output reg out, out_n
  ); 
  always@(*) begin
 out=~(a^b);
