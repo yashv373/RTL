@@ -4,18 +4,30 @@
 
 ### Verilog:
  ```
- module 
+ module top_module(
+ input 
+ output
+ )
  
+ 
+ endmodule
  ```
 
 ### System-Verilog:
 ```
+module top_module(
+input 
+output
+)
 
 
+
+endmodule
 ```
 
 ### Suggested Testbench:
 ```
+module top_tb;
 
 
 ```
