@@ -34,7 +34,7 @@ endmodule
 module top_tb;
 logic a,b,c,d;
 logic out, out_n;
-top_module dut (.a(a), .b(b), .c(c) .out(out));
+top_module dut (.a(a), .b(b), .c(c), .d(d) .out(out));
 initial begin
 $monitor("time=%t, a=%b, b=%b, out=%b", $time, a,b,out);
 a=1'b0; b=1'b0; 
