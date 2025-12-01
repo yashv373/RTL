@@ -32,7 +32,7 @@ endmodule
 ### Suggested Testbench:
 ```
 module top_tb;
-logic a,b;
+logic a,b,c;
 logic out;
 top_module dut (.a(a), .b(b), .out(out));
 initial begin
