@@ -21,7 +21,7 @@ input logic a,b,c,
 output logic w,x,y,z
 )
 always_comb begin(
-
+ a=w; b=x; b=y; c=z;
 )
 end
 endmodule
