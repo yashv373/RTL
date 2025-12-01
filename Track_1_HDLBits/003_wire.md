@@ -31,9 +31,10 @@ output logic out
 ```
 module testbench;
 logic input, output;
-initial begin(
+initial begin( // c
 int x;
 #5 x=~x;
+end
 top_module dut(.input(in), .output(out));
-assign wire=5
+
 ```
