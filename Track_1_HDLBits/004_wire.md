@@ -1,6 +1,6 @@
 ### Question:
  create a module with 3 inputs and 4 outputs
- linked as follows:
+ linked as follows: a=b; b=x; v
 
 ### Verilog:
  ```
