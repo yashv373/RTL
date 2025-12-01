@@ -8,7 +8,7 @@
  input a,b,c,
  output w,x,y,z
  )
- always@
+ always@(*)
  
  endmodule
  ```
