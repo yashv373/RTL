@@ -17,8 +17,8 @@
 ### System-Verilog:
 ```
 module top_module(
-input log a,b,c
-output w,x,y,z
+input logic a,b,c
+output logic w,x,y,z
 )
 
 
