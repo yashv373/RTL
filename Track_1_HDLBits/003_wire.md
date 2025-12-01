@@ -29,5 +29,5 @@ output logic out
 
 ### Suggested Testbench:
 ```
-module top mod
+module testbench
 ```
