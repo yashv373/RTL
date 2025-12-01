@@ -4,12 +4,12 @@
 ### Verilog:
  ```
 module top_module(
-input 
-output 
+input in,
+output out
 );
-wire 
-reg
- 
+wire in;
+reg out;
+assign out=in;
  endmodule
  ```
 
