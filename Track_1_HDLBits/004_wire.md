@@ -17,10 +17,10 @@
 ### System-Verilog:
 ```
 module top_module(
-input logic a,b,c
+input logic a,b,c,
 output logic w,x,y,z
 )
-
+always_co
 
 
 endmodule
