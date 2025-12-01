@@ -10,7 +10,7 @@ This repository serves as my personal practice log and reference library as I wo
 - Track 3: EWSkills
 - Track 4: ChipDev.io
 - Track 5: QuickSilicon
-- Track 6: Complex subsystem imp
+- Track 6: Complex subsystem implementations
 ---
 ## Goals
 - Strengthen RTL design skills through structured practice  
