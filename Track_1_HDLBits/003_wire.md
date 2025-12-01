@@ -36,7 +36,7 @@ int x;
 end
 top_module dut(.input(in), .output(out)); // instantiate the dut
 always@(*) begin
-x
+x=~x;
 
 
 ```
