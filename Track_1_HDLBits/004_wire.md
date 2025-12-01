@@ -9,7 +9,7 @@
  output w,x,y,z
  )
  always@(*) begin
-   a=w; b=x; b=y; c=z;
+ a=w; b=x; b=y; c=z;
  endmodule
  ```
 
