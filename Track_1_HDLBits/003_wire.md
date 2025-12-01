@@ -30,7 +30,7 @@ module testbench;
 logic input1, output1;
  
 top_module dut(.in(input1), .out(output1));  
-always@(posedge_clk) begin
+initial begin
 input<=1'b1; 
 output<=input;#5
 input<=1'b0; 
