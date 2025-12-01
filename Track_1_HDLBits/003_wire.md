@@ -7,8 +7,6 @@ module top_module(
 input in,
 output out
 );
-wire in;
-reg out;
 assign out=in;
  endmodule
  ```
