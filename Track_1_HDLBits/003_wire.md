@@ -30,6 +30,7 @@ output logic out
 ### Suggested Testbench:
 ```
 module testbench;
+logic in, out;
 initial begin(
 int x;
 #5 x=~x;
