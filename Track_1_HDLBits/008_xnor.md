@@ -1,13 +1,11 @@
 ### Question:
-create a circuit with 4 inputs and 2 outputs,
-mapped as follows:
-1. out = ab+cd
-2. out_n = ~(ab+cd)
+create a nor gate
+
 ### Verilog:
  ```
  module top_module(
- input a,b,c,d
- output reg out, out
+ input a,b,
+ output reg out
  ); 
  always@(*) begin
 out=~(a^b);
