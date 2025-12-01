@@ -7,4 +7,4 @@ DUT --> out=in;  ///// in TB --> we do out=1'b1; that is like the port "out" is 
 ---
 - no brackets to be used after always_comb
 - when u have multiple statements giving stimulus to dut, in tb, between last statement and the $finish statement always add an additional time delay for it to make sure that the last statement executes and the simulation doesn't terminate and the last statement gets ignored.
-- if you want to use always@(*) then mak
+- if you want to use always@(*) then make sure that you have declared the output ports as register
