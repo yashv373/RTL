@@ -1,12 +1,12 @@
 ### Question:
  create a module with 3 inputs and 4 outputs
- linked as follows: a=b; b=x; b=y; c=z;
+ linked as follows: a=w; b=x; b=y; c=z;
 
 ### Verilog:
  ```
  module top_module(
  input a,b,c,
- output 
+ output w,x,y
  )
  
  
