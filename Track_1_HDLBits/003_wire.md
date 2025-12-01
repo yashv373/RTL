@@ -16,8 +16,8 @@ assign out=in;
 ### System-Verilog:
 ```
 module top_module(
-input logic
-output logic
+input logic in,
+output logic out
 );
  
  endmodule
