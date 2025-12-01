@@ -1,5 +1,5 @@
 ### Question:
-create a nor gate
+create a xnor gate
 
 ### Verilog:
  ```
