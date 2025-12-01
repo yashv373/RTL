@@ -32,6 +32,6 @@ output logic out
 module testbench;
 initial begin(
 int x;
-#5 x
+#5 x=~x;
 top_module dut()
 ```
