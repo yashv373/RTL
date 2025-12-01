@@ -19,7 +19,7 @@ module top_module(
 input logic in,
 output logic out
 );
- 
+ always_comb
  endmodule
 
 ```
