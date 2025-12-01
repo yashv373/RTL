@@ -1,1 +1,1 @@
-- in testbenches w
+- in testbenches we always call a dut from the original design file, if you try to drive
