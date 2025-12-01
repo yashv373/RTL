@@ -1,5 +1,7 @@
 ### Question:
-create a nor gate
+create a circuit with 4 inputs and 2 outputs,
+mapped as follows:
+1. out = 
 
 ### Verilog:
  ```
