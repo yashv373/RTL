@@ -27,7 +27,7 @@ output logic out
 ### Suggested Testbench:
 ```
 module testbench;
-logic input, output;
+logic input1, output1;
 initial begin( // clocking block
 int x;
 #5 clk x=~x;
