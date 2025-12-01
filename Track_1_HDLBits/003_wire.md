@@ -45,7 +45,7 @@ output<=input; #5
 input<=1'b1; 
 output<=input;#5
 end
-$monitor("at time input%b,%b")
+$monitor("at time %t --> input = %b,%b")
 
 
 
