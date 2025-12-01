@@ -34,5 +34,5 @@ logic input, output;
 initial begin(
 int x;
 #5 x=~x;
-top_module dut(.input(in),)
+top_module dut(.input(in), .output(out))
 ```
