@@ -6,4 +6,4 @@ DUT --> out=in;  ///// in TB --> we do out=1'b1; that is like the port "out" is 
   to see the difference happening in ports regardless of value being same, we will need to insert multiple $display statements.
 ---
 - no brackets to be used after always_comb
-- when u have multiple statements giving stim
+- when u have multiple statements giving stimulus to dut, in tb, between last statement and the finish
