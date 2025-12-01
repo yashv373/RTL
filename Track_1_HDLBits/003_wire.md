@@ -15,7 +15,12 @@ reg
 
 ### System-Verilog:
 ```
-
+module top_module(
+input logic
+output logic
+);
+ 
+ endmodule
 
 ```
 
