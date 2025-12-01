@@ -30,9 +30,9 @@ output logic out
 ### Suggested Testbench:
 ```
 module testbench;
-logic input, out;
+logic input, output;
 initial begin(
 int x;
 #5 x=~x;
-top_module dut()
+top_module dut(.input)
 ```
