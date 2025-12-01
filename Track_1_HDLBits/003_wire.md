@@ -32,7 +32,7 @@ initial begin( // clocking block
 int x;
 #5 clk x=~x;
 end
-top_module dut(.input(in), .output(out)); // instantiate the dut
+top_module dut(.in(input1), .out(output1)); // instantiate the dut
 always@(posedge_clk) begin
 input<=1'b1; 
 output<=input;#5
