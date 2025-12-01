@@ -8,7 +8,8 @@ This repository serves as my personal practice log and reference library as I wo
 - Track 1: **HDLBits solutions** (Verilog + SystemVerilog)
 - Track 2: **Digital circuits library** (from textbooks & online resources)
 - Track 3: EWSkills
-- Track 4: **Project work** (AXI4-Lite ↔ systolic array interface, more soon!)
+- Track 4: ChipDev.io
+- Track 5: Q
 ---
 ## Goals
 - Strengthen RTL design skills through structured practice  
