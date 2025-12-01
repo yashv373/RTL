@@ -29,5 +29,6 @@ output logic out
 
 ### Suggested Testbench:
 ```
-module testbench
+module testbench;
+assign wire
 ```
