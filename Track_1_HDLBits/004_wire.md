@@ -33,7 +33,7 @@ module top_tb;
 logic a,b,c;
 logic w,x,y,z;
 top_module dut (.a(a),.b(b),.c(c),.w(w),.x(x),.y(y),.z(z));
-initial beign
-$monitor("time=%t, INPUTS: a=%b, b=%b, c=%b
-
+initial begin
+$monitor("time=%t, INPUTS: a=%b, b=%b, c=%b || OUTPUTS: w=%b,
+x=%b, w=%b, w=%b",
 ```
