@@ -30,6 +30,8 @@ endmodule
 ### Suggested Testbench:
 ```
 module top_tb;
-logic a,b,c
+logic a,b,c;
+logic w,x,y,z;
+
 
 ```
