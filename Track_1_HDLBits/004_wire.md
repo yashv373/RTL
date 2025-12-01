@@ -5,8 +5,8 @@
 ### Verilog:
  ```
  module top_module(
- input 
- output
+ input a,b,c,
+ output 
  )
  
  
