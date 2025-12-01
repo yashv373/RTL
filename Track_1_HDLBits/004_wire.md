@@ -36,9 +36,7 @@ top_module dut (.a(a),.b(b),.c(c),.w(w),.x(x),.y(y),.z(z));
 initial begin
 $monitor("time=%t, INPUTS: a=%b, b=%b, c=%b || OUTPUTS: w=%b,
 x=%b, y=%b, z=%b", $time, a,b,c,w,x,y,z);
-a=1'b1;
-b=1'b1;
-c=1'b0;
+a=1'b1; b=1'b1; c=1'b0;
 $finish
 end
 ```
