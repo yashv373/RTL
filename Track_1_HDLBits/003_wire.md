@@ -21,7 +21,6 @@ output logic out
 );
  always_comb begin
  out=in;
- )
  end
  endmodule
 
@@ -37,6 +36,7 @@ int x;
 end
 top_module dut(.input(in), .output(out)); // instantiate the dut
 always@(*) begin
+x
 
 
 ```
