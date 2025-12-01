@@ -31,6 +31,7 @@ logic input1, output1;
  
 top_module dut(.in(input1), .out(output1));  
 initial begin
+$monitor("at time %t --> input = %b,output = %b", $time , input, output);
 input<=1'b1; 
 output<=input;#5
 input<=1'b0; 
@@ -40,7 +41,7 @@ output<=input; #5
 input<=1'b1; 
 output<=input;#5
 end
-$monitor("at time %t --> input = %b,output = %b", t, input, output);
+
 endmodule
 
 
