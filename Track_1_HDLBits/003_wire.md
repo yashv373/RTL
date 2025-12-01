@@ -30,5 +30,5 @@ output logic out
 ### Suggested Testbench:
 ```
 module testbench;
-assign wire
+top_module dut()
 ```
