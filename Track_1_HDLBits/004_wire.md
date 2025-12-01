@@ -10,13 +10,14 @@
  )
  always@(*) begin
  a=w; b=x; b=y; c=z;
+ end
  endmodule
  ```
 
 ### System-Verilog:
 ```
 module top_module(
-input 
+input a,b,c
 output
 )
 
