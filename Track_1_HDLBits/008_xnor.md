@@ -10,7 +10,7 @@ mapped as follows:
  output reg out, out_n
  ); 
  always@(*) begin
-out=()
+out=(a&b)|(c&d);
 out_n=~(out);
  end
  endmodule
