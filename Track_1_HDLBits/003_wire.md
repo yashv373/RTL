@@ -35,8 +35,8 @@ int x;
 #5 x=~x;
 end
 top_module dut(.input(in), .output(out)); // instantiate the dut
-always@(*) begin
-input=1'b1; #5; 
+always@(po) begin
+input=1'b1; #5
 output=input;
 if
 
