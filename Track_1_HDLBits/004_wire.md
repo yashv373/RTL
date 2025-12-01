@@ -21,9 +21,9 @@ module top_module(
 input logic a,b,c,
 output logic w,x,y,z
 );
-always_comb begin(
+always_comb begin
 w=a; x=b; y=b; z=c;
-)
+
 end
 endmodule
 ```
