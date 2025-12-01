@@ -31,7 +31,7 @@ output logic out
 ```
 module testbench;
 logic input, output;
-initial begin( // c
+initial begin( // clocking block
 int x;
 #5 x=~x;
 end
