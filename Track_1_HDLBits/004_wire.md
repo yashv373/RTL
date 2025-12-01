@@ -6,9 +6,8 @@
  ```
  module top_module(
  input a,b,c,
- output w,x,y,z
- );
- reg w,x,y,z;
+ output reg w,x,y,z
+ ); 
  always@(*) begin
 w=a; x=b; y=b; z=c;
  end
