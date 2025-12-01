@@ -36,9 +36,15 @@ int x;
 end
 top_module dut(.input(in), .output(out)); // instantiate the dut
 always@(posedge_clk) begin
-input=1'b1; #5
-output=input;
-if
+input<=1'b1; #5
+output<=input;
+input<=1'b0; #5
+output<=input;
+input<=1'b0; #5
+output<=input;
+input<=1'b1; #5
+output<=input;
+
 
 
 ```
