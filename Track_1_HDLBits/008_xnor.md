@@ -19,8 +19,8 @@ out_n=~(out);
 ### System-Verilog:
 ```
 module top_module(
-input logic a,b,
-output logic out
+input logic a,b,c,d
+output logic out, out_n
 );
 always_comb begin
 out=~(a^b);
