@@ -2,7 +2,7 @@
 create a circuit with 4 inputs and 2 outputs,
 mapped as follows:
 1. out = ab+cd
-2. out_n = 
+2. out_n = ~(ab+cd)
 ### Verilog:
  ```
  module top_module(
