@@ -40,10 +40,9 @@ input<=1'b0;
 output<=input; #5
 input<=1'b1; 
 output<=input;#5
+$finish;
+
 end
 
 endmodule
-
-
-
 ```
