@@ -7,11 +7,10 @@ mapped as follows:
  ```
  module top_module(
  input a,b,c,d
- output reg out, out_n
+ output reg out, out
  ); 
  always@(*) begin
-out=(a&b)|(c&d);
-out_n=~(out);
+out=~(a^b);
  end
  endmodule
  ```
@@ -19,12 +18,11 @@ out_n=~(out);
 ### System-Verilog:
 ```
 module top_module(
-input logic a,b,c,d
-output logic out, out_n
+input logic a,b,
+output logic out
 );
 always_comb begin
-out=(a&b)|(c&d);
-out_n=~(out);
+out=~(a^b);
 end
 endmodule
 ```
@@ -32,7 +30,7 @@ endmodule
 ### Suggested Testbench:
 ```
 module top_tb;
-logic a,b,c;
+logic a,b;
 logic out;
 top_module dut (.a(a), .b(b), .out(out));
 initial begin
