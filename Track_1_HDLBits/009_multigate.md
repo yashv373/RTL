@@ -36,7 +36,7 @@ logic a,b,c,d;
 logic out, out_n;
 top_module dut (.a(a), .b(b), .c(c), .d(d), .out(out), .out_n(out_n));
 initial begin
-$monitor("time=%t, a=%b, b=%b, out=%b", $time, a,b,out);
+$monitor("time=%t, a=%b, b=%b, out=%b, out_n=%n", $time, a,b,out);
 a=1'b0; b=1'b0; 
 #10
 a=1'b1; b=1'b0;  
