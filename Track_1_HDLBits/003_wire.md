@@ -19,8 +19,9 @@ module top_module(
 input logic in,
 output logic out
 );
- always_comb(
- out=in)
+ always_comb begin(
+ out=in;
+ )
  endmodule
 
 ```
